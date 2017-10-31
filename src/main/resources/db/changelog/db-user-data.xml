@@ -11,7 +11,7 @@
         <insert tableName="user">            
             <column name="forename" type="VARCHAR(64)" value="Iain"/>
             <column name="surname" type="VARCHAR(64)" value="Banks"/>
-            <column name="email" type="VARCHAR(64)"  value="imbanks"/>
+            <column name="email" type="VARCHAR(64)"  value="imbanks@mail.com"/>
             <column name="created" type="TIMESTAMP WITH TIME ZONE" value="2017-10-31 13:00:00"/>
         </insert>
         <insert tableName="user">            
