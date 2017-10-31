@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet author="mball" id="insert example data">
+        <insert tableName="user">            
+            <column name="forename" type="VARCHAR(64)" value="Isaac"/>
+            <column name="surname" type="VARCHAR(64)" value="Asimov"/>
+            <column name="email" type="VARCHAR(64)"  value="iasimov@me.com"/>
+            <column name="created" type="TIMESTAMP WITH TIME ZONE" value="2017-10-30 15:00:00"/>
+        </insert>
+        <insert tableName="user">            
+            <column name="forename" type="VARCHAR(64)" value="Iain"/>
+            <column name="surname" type="VARCHAR(64)" value="Banks"/>
+            <column name="email" type="VARCHAR(64)"  value="imbanks"/>
+            <column name="created" type="TIMESTAMP WITH TIME ZONE" value="2017-10-31 13:00:00"/>
+        </insert>
+        <insert tableName="user">            
+            <column name="forename" type="VARCHAR(64)" value="George"/>
+            <column name="surname" type="VARCHAR(64)" value="Orwell"/>
+            <column name="email" type="VARCHAR(64)"  value="gorwell@me.com"/>
+            <column name="created" type="TIMESTAMP WITH TIME ZONE" value="2017-09-30 18:00:00"/>
+        </insert>
+        <insert tableName="user">            
+            <column name="forename" type="VARCHAR(64)" value="Philip"/>
+            <column name="surname" type="VARCHAR(64)" value="Dick"/>
+            <column name="email" type="VARCHAR(64)"  value="pkdick@me.com"/>
+            <column name="created" type="TIMESTAMP WITH TIME ZONE" value="2017-08-30 11:00:00"/>
+        </insert>        
+    </changeSet>   
+	
+</databaseChangeLog>
+
