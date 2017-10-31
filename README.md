@@ -17,3 +17,15 @@ It exposes 7 RESTful endpoints:
 Each endpoint will accept JSON. 
 
 For more information on these endpoints you can visit the swagger page at http://ip-address:8080/swagger-ui.html
+</br>
+</br>
+You can clone this and build it yourself. It uses Maven as its dependency management tool. 
+</br>
+It will generate a runnable Spring Boot Jar. 
+</br>
+<ol>
+    <li>mvn clean install</li>
+    <li>java -jar crud-api-1.0.0-SNAPSHOT-spring-boot.jar</li>
+    <li>go to http://localhost:8080/swagger-ui.html</li>
+<ol>
+</br>
